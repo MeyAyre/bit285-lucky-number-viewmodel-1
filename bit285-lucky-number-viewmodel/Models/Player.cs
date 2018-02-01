@@ -11,7 +11,7 @@ namespace bit285_lucky_number_viewmodel.Models
         //TODO: Add the properties neededby the Player entity (including Data Annotations)
         public int ID { get; set; }
         public string Name { get; set; }
-        public int Balance { get; set; }
+        public decimal Balance { get; set; }
         public int Number { get; set; }
     }
 }

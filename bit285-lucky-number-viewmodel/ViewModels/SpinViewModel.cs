@@ -8,8 +8,8 @@ namespace bit285_lucky_number_viewmodel.ViewModels
     public class SpinViewModel
     {
         //TODO: Add the properties needed by the Spin View
-        public int[] Spinner { get; set; }
-        public int Balance { get; set; }
+        public int[] Spinner { get; set; } = new int [3];
+        public decimal Balance { get; set; }
         public int Number { get; set; }
         public string Message { get; set; }
         public bool isWinner { get; set; }

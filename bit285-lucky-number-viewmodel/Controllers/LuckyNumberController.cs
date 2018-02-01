@@ -27,7 +27,7 @@ namespace bit285_lucky_number_database.Controllers
                 dbc.SaveChanges();
                 Session["PlayerId"] = p.ID;
 
-                RedirectToAction("Spin");
+                return RedirectToAction("Spin");
                 
 
             }
